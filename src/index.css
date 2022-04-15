@@ -24,6 +24,11 @@ body {
   width: 98%;
 }
 
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
   .App h1 {
     margin-top: 25%;
   }
@@ -46,13 +51,13 @@ body {
   width: 100%;
   border-radius: 2%;
   margin-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 50%;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
   .tour img {
     width: 100%;
     border-radius: 2%;
-    max-height: 32rem;
+    max-height: 30rem;
   }
   .tour-info {
     display: flex;
