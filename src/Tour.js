@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 const Tour = ({id, image, info, price, name, removeTour}) => {
-    const [readMore, setReadMore] = useState(false)
+    const [readMore, setReadMore] = useState(true)
 
     return (
         <article className='tour'>
